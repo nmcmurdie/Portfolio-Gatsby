@@ -11,7 +11,7 @@ import './404.css'
 function App() {  
   return (
     <div className="error-container">
-        <Helmet>
+        <Helmet htmlAttributes = {{ lang: 'en' }}>
             <title>Page Not Found</title>
         </Helmet>
         <div className="error-body">

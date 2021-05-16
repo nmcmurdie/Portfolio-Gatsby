@@ -13,7 +13,7 @@ import './index.css';
 function App() {  
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes = {{ lang: 'en' }}>
         <meta
           name="description"
           content="Nick McMurdie's Web Portfolio"

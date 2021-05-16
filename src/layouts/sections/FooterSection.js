@@ -8,7 +8,7 @@ function FooterSection() {
     return (
         <Section type="footer">
             <div className="links-container footer-links">
-                <SquareButton iconURL={GithubIcon} link="https://www.github.com/nmcmurdie/portfolio" alt="Github" simple="true" />
+                <SquareButton iconURL={GithubIcon} link="https://www.github.com/nmcmurdie/portfolio-gatsby" alt="Github" simple="true" />
             </div>
             Made with ❤️ and React.js
             <span className="spacer" />
