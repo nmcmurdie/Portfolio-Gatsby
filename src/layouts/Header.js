@@ -10,22 +10,25 @@ export default class Header extends Component {
         super();
 
         this.numTypes = TYPES.length;
-        this.screenWidth = window.innerWidth;
-        this.state = this.generateShapes();
+        this.state = { shapes: [] };
     }
 
     componentDidMount() {
-        window.addEventListener("resize", () => this.debouncedResize());
+        if (window) {
+            this.screenWidth = window.innerWidth;
+            this.setState(() => this.generateShapes())
+            window.addEventListener("resize", () => this.debouncedResize());
+        }
     }
 
     componentWillUnmount() {
         clearTimeout(this.timer);
-        window.removeEventListener("resize", () => this.debouncedResize());
+        if (window) window.removeEventListener("resize", () => this.debouncedResize());
     }
 
     debouncedResize() {
         this.debounce(() => {
-            if (window.innerWidth !== this.screenWidth) {
+            if (window && window.innerWidth !== this.screenWidth) {
                 this.screenWidth = window.innerWidth;
                 this.setState(() => this.generateShapes())
             }
