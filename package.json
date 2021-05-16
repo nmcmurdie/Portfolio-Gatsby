@@ -3,7 +3,7 @@
   "private": true,
   "description": "Nick McMurdie's web portfolio",
   "author": "Nick McMurdie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
