@@ -1,0 +1,19 @@
+.error-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-secondary);
+}
+.error-body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-secondary);
+}
+.error-icon {
+    font-size: 4rem !important;
+}

@@ -1,0 +1,38 @@
+.section {
+    --header-stub-height: 20px;
+
+    position: relative;
+    display: inline-block;
+    min-height: 50px;
+    width: 100%;
+    color: var(--text-secondary);
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: calc(2 * var(--header-stub-height));
+}
+.section::before {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--header-stub-height));
+    left: 0;
+    background: inherit;
+    width: 100%;
+    height: var(--header-stub-height);
+    border-top-right-radius: var(--header-stub-height);
+    border-top-left-radius: var(--header-stub-height);
+}
+
+.section-title {
+    display: flex;
+    justify-content: center !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.section.about {
+    background-color: var(--background-secondary);
+}
+.section.projects {
+    background-color: var(--background-tertiary);
+}

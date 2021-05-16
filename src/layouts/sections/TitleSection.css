@@ -1,0 +1,18 @@
+.section.title {
+    margin-top: var(--header-height);
+    padding-top: 150px;
+    background-color: var(--background-primary);
+}
+.section-title.title {
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: var(--text-tertiary);
+    text-shadow: 0 .05em .1em rgba(0, 0, 0, .2);
+}
+.links-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 90px 0;
+}

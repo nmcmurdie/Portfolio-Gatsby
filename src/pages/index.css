@@ -1,0 +1,30 @@
+:root {
+  --background-primary: #fff;
+  --background-secondary: #efefef;
+  --background-tertiary: #e4e4e4;
+  --background-alternate: #2c2c2c;
+
+  --text-primary: #3c3c3c;
+  --text-secondary: #5c5c5c;
+  --text-tertiary: #7c7c7c;
+  --text-alternate: #fff;
+
+  --accent-primary: #3f51b5;
+  --accent-secondary: #303F9F;
+
+  --header-height: 180px;
+}
+
+html {
+  background-color: var(--accent-primary);
+  color: var(--text-primary);
+  font-family: 'Roboto', arial, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
