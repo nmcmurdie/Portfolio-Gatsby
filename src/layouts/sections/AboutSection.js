@@ -16,7 +16,7 @@ function AboutSection() {
                     <br />
                     Graduating in <span className="highlight">April 2023</span>
                     <br />
-                    <span className="highlight">3.76</span> Cumulative GPA
+                    <span className="highlight">3.81</span> Cumulative GPA
                     <br />
                     <span className="highlight">4.00</span> GPA in Core Java / C++ Courses
                 </Skill>
