@@ -16,7 +16,7 @@ function AboutSection() {
                     <br />
                     Graduating in <span className="highlight">April 2023</span>
                     <br />
-                    <span className="highlight">3.81</span> Cumulative GPA
+                    <span className="highlight">3.82</span> Cumulative GPA
                     <br />
                     <span className="highlight">4.00</span> GPA in Core Java / C++ Courses
                 </Skill>
@@ -25,7 +25,7 @@ function AboutSection() {
                     <br />
                     Experienced with <span className="highlight">HTML</span>, <span className="highlight">CSS</span>, and <span className="highlight">JavaScript</span>
                     <br />
-                    Designed and developed several websites and Chrome extensions
+                    Created many unique websites and automation tools
                     <br />
                     Currently experimenting with <span className="highlight">React.js</span>
                 </Skill>
